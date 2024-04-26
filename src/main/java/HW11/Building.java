@@ -8,8 +8,8 @@ class Building {
 
     public Building(int totalFloors) {
         this.totalFloors = totalFloors;
-        this.elevatorA = new Elevator(0); // Пусть лифт A находится на нулевом этаже
-        this.elevatorB = new Elevator(8); // Пусть лифт B находится на восьмом этаже
+        this.elevatorA = new Elevator(0);
+        this.elevatorB = new Elevator(8);
     }
 
     public Elevator findNearestElevator(int floor) {
