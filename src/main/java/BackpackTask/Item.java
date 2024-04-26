@@ -1,5 +1,5 @@
 package BackpackTask;
-
+//задача с рюкзаком
 public class Item {
     private int weight;
     private int price;
